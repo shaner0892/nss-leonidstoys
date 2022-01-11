@@ -19,3 +19,14 @@ const puzzle = {
     batteriesRequired: false,
     numberInStock: 21
 }
+
+const remoteCar = {
+    id: 3,
+    name: "Remote Control Truck-9145",
+    maker: "Bezgar",
+    material: "nylon",
+    price: 85.49,
+    weightLbs: 3.03,
+    batteriesRequired: true,
+    numberInStock: 14
+}
