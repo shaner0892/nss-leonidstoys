@@ -44,7 +44,19 @@ const barbieDoll = {
 
 toys.push(barbieDoll)
 
+const walkieTalkie = {
+    id: 5,
+    name: "Walkie Talkie Set",
+    maker: "Playbea",
+    material: "plastic",
+    price: 24.99,
+    weightLbs: 0.86,
+    batteriesRequired: true,
+    numberInStock: 5
+}
+
+toys.push(walkieTalkie)
 
 for (const toy of toys) {
-    console.log(toy.price)
+    console.log(`The ${toy.maker} ${toy.name} costs $${toy.price}.`)
 }
