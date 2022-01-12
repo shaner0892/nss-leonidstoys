@@ -57,7 +57,11 @@ const walkieTalkie = {
 
 toys.push(walkieTalkie)
 
+const toyToFind = 5
+
 for (const toy of toys) {
+    if (toy.id === toyToFind) {
     toy.price = toy.price + (toy.price * 0.05)
     console.log(`The ${toy.maker} ${toy.name} costs $${toy.price}.`)
+    }
 }
