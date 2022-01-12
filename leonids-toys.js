@@ -58,5 +58,6 @@ const walkieTalkie = {
 toys.push(walkieTalkie)
 
 for (const toy of toys) {
+    toy.price = toy.price + (toy.price * 0.05)
     console.log(`The ${toy.maker} ${toy.name} costs $${toy.price}.`)
 }
