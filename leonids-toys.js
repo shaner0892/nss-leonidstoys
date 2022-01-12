@@ -31,6 +31,19 @@ const toys = [
     }
 ]
 
+const barbieDoll = {
+    id: 4,
+    name: "Barbie Doll",
+    maker: "Mattel",
+    material: "vinyl",
+    price: 9.99,
+    weightLbs: 0.46,
+    batteriesRequired: false,
+    numberInStock: 12
+}
+
+toys.push(barbieDoll)
+
 
 for (const toy of toys) {
     console.log(toy.price)
